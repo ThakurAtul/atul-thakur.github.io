@@ -1,0 +1,202 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+  color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #1e314d;
+  text-align: left;
+
+}
+
+.sidenav h2{
+  color: #b1aae3;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: gray;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+}
+@media only screen and (max-width: 600px){
+  .sidenav {visibility: hidden;}
+  .main {margin-left: 0px; font-size: 15px;width: 100%;}
+}
+  /*
+@media screen and (max-height: 400px) {
+.sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+}*/
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: pink;
+}
+
+
+/* Introduction Secion */
+.intro{
+  text-align: center;
+  background-color: #848c99;
+  color: black;
+  height: 800px;
+  width: 100%;
+
+}
+.intro img{
+  width: 300px;
+  height: 350px;
+  margin-top: 150px;
+  border: 5px solid #1e314d;
+  border-radius: 50%;
+}
+.intro h1{
+  font-weight: bold;
+  margin-top: 15px;
+  color: white;
+}
+.intro h5{
+  color:#494d4c;
+  font-weight: 800;
+  margin: 0;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+
+/* Eductaion Section */
+.education{
+  background-color: #cc8389;
+  padding: 15px;
+  height: 800px;
+  width: 100%;
+}
+.education h1{
+
+  margin-top: 50px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+.education h4{
+  margin-left: 20px;
+  margin-top: 35px;
+}
+.education p{
+  font-size: 15px;
+  margin-left: 35px;
+  color: #4d3e44;
+}
+.education img{
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-right: 90px;
+}
+
+
+/* Technology Section */
+.technology{
+  background-color: #bda86a;
+  margin-top: 10px;
+  padding: 20px;
+  color: black;
+  width: 100%;
+}
+.technology h1{
+  text-align: center;
+  margin: 20px;
+  margin-top: 40px;
+  color: #2a0c66;
+}
+.technology h2{
+  margin: 35px;
+  color: #2a0c66;
+}
+.tech-info{
+    height:130px;
+    width:180px;
+    display:inline-block;
+    margin-left: 5%;
+    padding: 15px;
+    text-align: center;
+}
+.technology img {
+  width: 100%;
+  height: 110px;
+  box-shadow: 2px 2px #706441;
+}
+.tech-info  figcaption{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/*contact section */
+.contact{
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #67678f;
+  height: 800px;
+  width: 100%;
+
+}
+.contact h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.contact .conatct-links a{
+  color:white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.conatct-links{
+  padding: 10px;
+  margin: 25px;
+  width: 15%;
+  height: 55px;
+  overflow:hidden;
+}
+.conatct-links:hover{
+  overflow: visible;
+  width: auto;
+  height: auto;
+}
+
+.conatct-links input{
+  width: 250px;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.conatct-links input[type='text']{
+  font-size: 15px;
+  font-weight: bold;
+  color: #283852;
+}
